@@ -9,7 +9,7 @@ class Window(QtWidgets.QMainWindow):
         # Instantiate AWinode.ports_indget No data returned (timeout while sending data).t
         self.aview = AView(self)
         # ASharedItems.awidget = self.awidget
-        # uic.loadUi('ui/mainForm.ui', self)
+        uic.loadUi('ui/mainForm.ui', self)
         self.setCentralWidget(self.aview)
 
         # Node Player
