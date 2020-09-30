@@ -105,5 +105,5 @@ if __name__ == '__main__':
     window = Window()
     window.setGeometry(150, 150, 1768, 874)
     window.show()
-    input()
+
     sys.exit(app.exec_())
